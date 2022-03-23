@@ -1,0 +1,23 @@
+cd desktop
+mkdir GerardKpoka
+cd GerardKpoka
+GerardKpoka % mkdir commands
+GerardKpoka % cd commands
+commands % mkdir Windows Mac0s
+commands % cd Windows
+Windows % touch Win_commands.txt
+iWindows % cd ..
+ commands % cd Mac0s
+Mac0s % touch Mac_commands.txt
+Mac0s % cd..
+Mac0s % cd ..
+commands % mv Windows/Win_commands.txt Mac0s/Mac_commands.txt .
+commands % rm -r Windows Macs
+commands % rm -r Windows Mac0s
+commands % cd ..
+GerardKpoka % mkdir WEB
+GerardKpoka % cd WEB
+iWEB % mkdir "HTML1&CSS"
+WEB % cd ..
+GerardKpoka % touch script.sh
+GerardKpoka % 
